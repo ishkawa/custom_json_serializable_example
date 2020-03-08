@@ -1,4 +1,4 @@
-library custom_json_serializable_example;
+library custom_json_serializable;
 
 import 'package:source_gen/source_gen.dart';
 import 'package:json_serializable/type_helper.dart';
