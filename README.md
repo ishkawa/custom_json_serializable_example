@@ -23,8 +23,8 @@ An instance of this class `Item('Apple', DateTime(2020, 3, 8))` can be serialize
 
 ```json
 {
-    name: Apple,
-    createdAt: 1583593200000
+    "name": "Apple",
+    "createdAt": 1583593200000
 }
 ```
 
