@@ -1,0 +1,1 @@
+library custom_json_serializable;

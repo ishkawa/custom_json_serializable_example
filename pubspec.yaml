@@ -1,0 +1,11 @@
+name: custom_json_serializable
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  json_annotation: ^3.0.1
+  json_serializable: ^3.2.5
+
+dev_dependencies:
+  pedantic: ^1.8.0

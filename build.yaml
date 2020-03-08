@@ -1,0 +1,8 @@
+builders:
+  custom_json_serializable:
+    import: "package:custom_json_serializable/builder.dart"
+    builder_factories: ["customJsonSerializable"]
+    build_extensions: {".dart": ["custom_json_serializable.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
