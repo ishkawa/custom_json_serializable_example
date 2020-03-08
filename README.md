@@ -2,7 +2,7 @@
 
 An example project that generates fromJson/toJson methods for custom types.
 
-The root package of this repository is a code generator based on `json_serializable`. As an example of customization, this package also supports serialize/deserialize `DateTime` to UNIX milliseconds.
+The root package of this repository is a code generator based on `json_serializable`. As an example of customization, this package also supports serialize(deserialize) `DateTime` to(from) UNIX milliseconds.
 
 For example, suppose we have a class below:
 
